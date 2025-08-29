@@ -16,6 +16,7 @@ public class Picture
     private Triangle roof;
     private Circle sun;
     private boolean drawn;
+    private boolean sunset;
 
     /**
      * Constructor for objects of class Picture
@@ -56,7 +57,7 @@ public class Picture
             sun.moveVertical(-40);
             sun.changeSize(80);
             sun.makeVisible();
-            sun.slowMoveVertical(250);
+            
             
             
             
@@ -64,6 +65,24 @@ public class Picture
         }
     }
 
+    public void sunset()
+    {
+        if(!sunset) {
+            
+    
+            sun.changeColor("yellow");
+            sun.changeSize(80);
+            sun.makeVisible();
+            sun.slowMoveVertical(250);
+            
+            
+            
+            sunset = true;
+        }
+    }
+    
+    
+    
     /**
      * Change this picture to black/white display
      */

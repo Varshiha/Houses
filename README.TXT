@@ -17,3 +17,4 @@ adds a class to those ones in "shapes". That class (named "Picture")
 uses the shapes to draw a picture. It can be used to experiment with 
 modifying source code.
 I am going to start the houses projects
+I have no idea how it drew the picture. I am guessing it was the picture that the code had described. The picture became black and white and then colored again.
